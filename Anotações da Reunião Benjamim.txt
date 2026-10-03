@@ -1,0 +1,33 @@
+Anotações sobre a Reunião 01/10/2026
+
+Tema: Controlar as notificações e multas de um condomínio (Gerencia e Aplica)
+
+- Hoje não há controle
+- Terceira Notificação vira multa (Do mesmo) -> Único
+- Cadastro de unidades ou quem mora nelas
+- As notificações e multas serão para a unidade 
+- Multas: Estacionamento, Barulho, Lixo, Não manter os padrões, entre outros
+- Cada item tem um valor de multa
+- Valores fixos de multa
+- Cadastro do documento de notificações
+- Também notifica quando vira multa
+- Notificação chega no telefone e no email
+- O sistema é só para registrar que houve notificação 
+- Toda notificação existe um prazo para que a pessoa faça recurso (Prazo Configurável)
+- Administrador tem acesso ao modo admin e os proprietários vão ter acesso ao modo proprietário
+- 650 proprietários e 10 administradores (650 acessos simultâneos) -> Podem ser mais ou menos administradores
+- Só o proprietário da unidade recebe a notificação, os demais moradores não recebem
+- Proprietário de mais de um lote -> Detalhamento de qual foi a unidade 
+- Só é possível vender a propriedade se houver adimplência
+- Trocou o proprietário, zerou tudo
+- Aplicação Web
+- Existência dos modelos padrões de notificações e multas
+- Se eu tomei 3, multa, aí a quarta também multa, a quinta também, a sexta também, etc
+- Pegou uma multa, a próxima é 50% maior
+- Deve haver uma funcionalidade de poder zerar as multas de todo (mas sem apagar o histórico) -> Pode ser chamada a qualquer momento
+- Se o morador tomar multa em área comum e tiver mais de uma unidade, o proprietário escolhe em qual vai ser cadastrado
+- Relatórios: Unidade e Proprietário
+- Podemos zerar por tipo de infração, para caso haja uma mudança de regra
+- A administração cadastra apenas proprietários e unidades e vincula os proprietários às unidades
+- O proprietário pode atualizar telefone e email
+- Funcionamento 24/7 
