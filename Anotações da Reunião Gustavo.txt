@@ -1,0 +1,29 @@
+# Entrevista - Controle de multas de um condomínio
+
+- Terceira notificação DO MESMO ITEM gera multa (depois reinicia)
+- Cadastro das unidades e os moradores de cada unidade
+- A multa vai para a unidade
+- Ex: estacionamento, uso de espaço não reservado, som alto, etc
+- Cada multa possui um valor
+- Os valores e os tipos de multa serão cadastrados
+- Valores fixos pré-estabelecidos
+- Notificações sobre o ocorrido
+- Quando a multa é gerada, após 3 notificações, a unidade recebe outra notificação, referente à multa
+- SISTEMA: Consulta, histórico, fotos/vídeos, gerar arquivo com as informações da multa
+    - ADM: Visualiza as multas de todas as unidades
+    - Proprietário: tem acesso APENAS à sua unidade
+- 650 lotes / 10 administradores
+- TODA notificação possui um prazo para ser contestada (o prazo é configurável)
+- A contestação deve ser intuitiva, deve ser possível adicionar fotos e vídeos, e o próprio morador que recebeu a multa deve contestá-la
+- A multa fica associada à unidade
+- Trocou de proprietário - ZEROU A UNIDADE (para haver venda de imóvel, o residente deve estar ADIMPLENTE)
+- Modelos padão de notificação de multa, com adicionais à ocorrência específica
+- Reincidência de multa - 150% do valor anterior
+- Funcionalidade: Zerar todas as notificações, zerar todas as notificações de uma modalidade de infração
+- Quando o morador possui 2 unidades no condomínio e não for possível identificar uma unidade relacionada à infração, o administrador manda a notificação a uma das unidades do morador
+- Comunicados: notificações relacionadas à mudança de normal
+- A administração pode alterar os dados de um proprietário
+- O proprietário pode alterar o email e o celular
+- Proprietário: CPF, Nome, Email, Celular
+- Unidade: casa, proprietário
+- Proprietario_unidade: Relação do
